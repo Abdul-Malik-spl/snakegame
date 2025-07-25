@@ -1,0 +1,38 @@
+#govermsg{
+height: 500px;
+width: 500px;
+position: absolute;
+background-color: rgba(255, 85, 0, 0.5);
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+display: none;
+
+}
+#govermsg h1{
+    color: white;
+}
+#govermsg button{
+    height: 50px;
+    width: 150px;
+    border-radius: 10px;
+    border: none;
+    background:linear-gradient(red,green) ;
+    color: white;
+    font-size: larger;
+    font-weight: bolder;
+}
+.gmoverclass{
+    display: block;
+}
+
+@media(max-width:600px){
+#canvas{
+scale: .5;
+}
+#govermsg{
+    scale: .5;
+    z-index: 99;
+}
+}

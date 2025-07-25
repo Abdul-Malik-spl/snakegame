@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./snake.css"/>
+</head>
+<body>
+      <h1 style="text-align: center;">Abdul Malik</h1>
+    <div style="display: flex;justify-content: center;align-items: center;"> 
+      <div id="govermsg"><h1>GAME OVER</h1>
+        <button id="refresh">Refresh</button>
+        <div style="margin-top: 10px;color: white;" >Your score: <span id="scoreshowgo"></span></div>
+    </div>  
+      <canvas id="canvas" width="500" height="500"></canvas>
+    </div>
+    <div style="display: flex; align-items: center;justify-content: center;margin-top: 20px;">
+      <span style="font-size: 25px;font-weight: 900;padding-right: 5px;">Score </span>
+      <span id="res" style="font-size: 25px;font-weight: 900;"> : 0</span>
+    </div>
+    <div style="display:flex;justify-content: center;align-items: center;">
+      <div style="height: 200px;width: 250px; border: 1px solid;">
+        <div style="display: flex;justify-content: center;">
+          <button style="height: 50px;width: 100px;" onclick="upmove()">UP</button></div>
+        <div style="display: flex;justify-content: space-between;margin-top: 20px;">
+          <button style="height: 50px;width: 100px;"onclick="leftmove()">Left</button>
+          <button style="height: 50px;width: 100px;"onclick="rightmove()">Right</button></div>
+        <div style="display: flex;justify-content: center;margin-top: 30px">
+          <button style="height: 50px;width: 100px;" onclick="downmove()">Down</button></div>
+      </div>
+    </div>
+</body>
+<script src="./snake.js">
+</script>
+</html>
