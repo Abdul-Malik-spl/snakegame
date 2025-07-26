@@ -35,11 +35,11 @@ scale: .5;
 }
 
 #controle{
- scale: .5;
+ scale: .6;
  position: absolute;
  top: 71%;
+left: 50%;
 
- transform: translateX(-50%);
 }
 .scorecard{
     position: absolute;
