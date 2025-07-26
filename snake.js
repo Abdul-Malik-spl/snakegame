@@ -64,7 +64,7 @@ setTimeout(() => {
       snake()
 gameover()
       
-}, 100);
+}, 80);
 }
 
 function gameboardclear(){
