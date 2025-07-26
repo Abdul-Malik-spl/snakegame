@@ -37,13 +37,15 @@ scale: .5;
 #controle{
  scale: .5;
  position: absolute;
- top: 70%;
+ top: 71%;
 
  transform: translate(-50px,-50px);
 }
 .scorecard{
     position: absolute;
     top: 10%;
+    left: 50%;
+    transform: translateX(-50%);
 
 }
 }
