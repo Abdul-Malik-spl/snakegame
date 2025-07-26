@@ -39,14 +39,14 @@ scale: .5;
  position: absolute;
  top: 71%;
 
- transform: translate(-50%,-50%);
+ transform: translateX(-50%);
 }
 .scorecard{
     position: absolute;
     top: 10%;
     left: 50%;
     transform: translateX(-50%);
-    background-color: red;
+    
 
 }
 }
