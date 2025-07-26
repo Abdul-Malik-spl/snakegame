@@ -39,7 +39,7 @@ scale: .5;
  position: absolute;
  top: 71%;
 
- transform: translate(-50px,-50px);
+ transform: translate(-50%,-50%);
 }
 .scorecard{
     position: absolute;
