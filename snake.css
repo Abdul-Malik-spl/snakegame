@@ -28,11 +28,11 @@ display: none;
 }
 
 @media(max-width:600px){
-#canvas{
+.banner{
 scale: .5;
 }
-#govermsg{
-    scale: .5;
-    z-index: 99;
+
+#controle{
+ scale: .5;
 }
 }
