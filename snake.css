@@ -34,5 +34,14 @@ scale: .5;
 
 #controle{
  scale: .5;
+ position: absolute;
+ top: 60%;
+ left: 30%;
+ transform: translate(-50px,-50px);
+}
+.scorecard{
+    position: absolute;
+    top: 55%;
+    left: 40%;
 }
 }
